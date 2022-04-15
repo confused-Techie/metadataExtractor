@@ -1,0 +1,19 @@
+{
+  "name": "metadataextractor",
+  "version": "1.0.0",
+  "description": "Quickly view the metadata of supported image/video files.",
+  "main": "cli.js",
+  "bin": {
+    "metadataextract": "cli.js"
+  },
+  "author": "confused-Techie",
+  "license": "ISC",
+  "dependencies": {
+    "byte-size": "^8.1.0",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.1",
+    "image-size": "^1.0.1",
+    "piexifjs": "^1.0.6",
+    "uuid": "^8.3.2"
+  }
+}
